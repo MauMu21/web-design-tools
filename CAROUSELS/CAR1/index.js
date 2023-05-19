@@ -1,9 +1,8 @@
-var swiper = new Swiper('.carousel',{
+var swiper = new swiper('.carousel',{
     navigation:{
-        nexEl: '.swiper/button-next',
-        prevEl: '.swiper/button-next'
+        nexEl: '.swiper-button-next',
+        prevEl: '.swiper-button-next'
     },
-
     pagination :{
         el:'.swiper-pagination',
     },
